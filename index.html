@@ -1,9 +1,70 @@
+
+</body>
+</html>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hello World Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Gray - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header>
+        <div class="container">
+            <h1>Michael Gray's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <img src="assets/me.jpeg" alt="Your photo">
+                <h2>About Me</h2>
+                <p> I am a software developer with a passion for creating games and  software. As a major in Information Technology and with a passion for programming,  I have experience with a variety of programming languages and tools, and I am always looking to learn more. I am currently seeking a part-time internship in the Information Technology field. Please feel free to contact me if you have any questions or would like to discuss a potential opportunity.</p>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="grid">
+                    <!-- Add your project cards here -->
+                    <div class="card">
+                        <img src="assets/unliving-in-the-moment.png" alt="Unliving in the moment ">
+                        <!-- link in the title -->
+                        
+                        <h3><a href="https://github.com/DarthMDev/Unliving-in-the-Moment">Unliving in the Moment</a></h3>
+                        <p>
+                            In this project I made a game in Godot as part of a weekend gamejam with 2 other people. In this game You're a ghost who can only be a ghost at moments in time. I learned how to collaborate with others in a time constrained manner and I was able to learn how to use Godot. 
+                            I also learned how to make a user interface, a win screen, player logic, logic for a weapon, enemy logic like pathfinding, and reset logic. 
+                        </p>
+                        
+                </div>
+                <div class="card">
+                   
+                    <h3><a href="https://github.com/DarthMDev/StockProgram">Stock Program</a></h3>
+                    <p>
+                        In this project for my object-oriented programming class I made a stock program that takes in a stock ticker and outputs a graph of candlesticks for the user that shows the high, low, open, and close of the stock. I learned a lot of c# programming from this experience. I used visual studio and windows forms to create the program.
+                        </p>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p> You can reach me at my business email address, michael.gray@michaelgraydev.me 
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2024 Michael Gray. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
